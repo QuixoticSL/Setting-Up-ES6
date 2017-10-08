@@ -19,3 +19,12 @@
 - Linters and checkers analyze source code statically and report problems related to style, typing, etc. Apparently the best and most popular is ESLint.
 - When the web app starts, feature detection is used to check whether ES6 is fully supported. If it is, the ES6 version of the app is used. Otherwise, the ES5 version is used.
 - ES6 provides better features for classes and modules.
+- `for-of` loop is used to iterate through iterable objects such as Arrays, Map, Set, String, TypedArray.
+
+### October 8th 2017 ###
+- Three types of features exist in ES6. Better syntax for existing features, new functionality in the standard library and completely new features.
+- ES6 provides better features for *classes* and *modules*.
+- The standard ES6 library now features *new methods for strings and arrays*, *promises* and *maps, sets*.
+- Some features can never be transpiled to ES5 such as `let` and `const`, *symbols*, *generators* and *WeakMaps*.
+- Dependencies are the packages used by the current package. They are installed into `node-modules` by `npm install`.
+- A source map is a file that accompanies the transpilation output and maps the lines of the output to lines in the input files.
